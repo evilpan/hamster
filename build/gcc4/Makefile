@@ -7,7 +7,7 @@ LIBS = -ldl -lpthread
 INCLUDES = -I. -I$(SRCDIR) -I$(SRCDIR)/include
 
 CC = gcc
-CFLAGS = -g $(INCLUDES) -Wall
+CFLAGS = -g -m32 $(INCLUDES) -Wall
 
 .SUFFIXES: .c .cpp
 
